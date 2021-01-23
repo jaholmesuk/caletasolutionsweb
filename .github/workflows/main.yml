@@ -24,7 +24,7 @@ jobs:
       with:
         azcliversion: 2.0.72
         inlineScript: |
-            az storage blob upload-batch --account-name 'stor-cio-uks' -d '$web' -s .
+            az storage blob upload-batch --account-name 'caletasolutions' -d '$web' -s .
             
   # Azure logout 
     - name: logout

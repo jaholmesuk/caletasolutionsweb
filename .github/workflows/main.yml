@@ -33,4 +33,4 @@ az cdn endpoint purge --content-paths "/*" --profile-name "caletasolutions" --na
   # Azure logout 
     - name: logout
       run: |
-            az logout
+az logout
